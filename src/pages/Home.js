@@ -84,8 +84,8 @@ const Home = () => {
         </section>
 
 
-        <section className="blogs p-5">
-            <div className="container-xxl">
+        <section className="blo p-5">
+            <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
                         <h1 className="mb-3"> Que dicen nuestros clientes...</h1>
@@ -96,7 +96,7 @@ const Home = () => {
                             <img src={blog1} className="card-img-top img-fluid" alt="..." />
                             <div className="card-body">
                                 <p className="card-text">"Variedad increíble reflejada en cada prenda. Modelos únicos para lucir a la moda en cualquier ocasión. ¡Altamente recomendado!</p>
-                                <Link to='about'>
+                                <Link to='/nosotros'>
                                     <button className="mt-4">Leer mas</button>
                                 </Link>
                             </div>
@@ -108,7 +108,7 @@ const Home = () => {
                             <img src={blog2} className="card-img-top img-fluid" alt="..." />
                             <div className="card-body">
                                 <p className="card-text">¡Vaya opciones geniales! Siempre encuentro algo que se adapta a mi estilo. ¡Mi amiga y yo adoramos explorar juntas!</p>
-                                <Link to='about'>
+                                <Link to='/nosotros'>
                                     <button className="mt-4">Leer mas</button>
                                 </Link>
                             </div>
@@ -120,7 +120,7 @@ const Home = () => {
                             <img src={blog3} className="card-img-top img-fluid" alt="..." />
                             <div className="card-body">
                                 <p className="card-text">Nosotras valoramos la calidad y la moda. Esta tienda nos sorprende con su selección única y versátil. Siempre tenemos mucho de qué hablar.</p>
-                                <Link to='about'>
+                                <Link to='/nosotros'>
                                     <button className="mt-4">Leer mas</button>
                                 </Link>
                             </div>
@@ -132,7 +132,7 @@ const Home = () => {
                             <img src={blog4} className="card-img-top img-fluid" alt="..." />
                             <div className="card-body">
                                 <p className="card-text">Me encanta esta tienda. Siempre hallo ideas inspiradoras y prendas de calidad. Un lugar perfecto para expresar mi estilo único.</p>
-                                <Link to='about'>
+                                <Link to='/nosotros'>
                                     <button className="mt-4">Leer mas</button>
                                 </Link>
                             </div>

@@ -37,6 +37,7 @@ Para poder correr el proyecto necesitas realizar los siguientes pasos:
 ## Authors
 
 - [Alexis Rojas](https://github.com/alexiscript)
+- Aca dejo link a app [https://the-clothes-cove-p-final-react.vercel.app/ ](https://the-clothes-cove-p-final-react.vercel.app/)
 
 
 ![Logo](https://avatars.githubusercontent.com/u/126620928?v=4)
