@@ -38,9 +38,9 @@ Para poder correr el proyecto necesitas realizar los siguientes pasos:
 
 - [Imagen Base Datos Productos](https://drive.google.com/file/d/1dO2rSjpJLL7LDy-_aNVoXbEPhnJl5pe-/view?usp=drive_link)
 
-- [Registro sesion google athentication](https://drive.google.com/file/d/1EAl0jY5IB2pb5XSRTSqcK8l8nP1pZ1RJ/view?usp=drive_link)
+- [Registro sesion google athentication](https://drive.google.com/file/d/1cDoTZBDM0kUxuq5OLkv0E-WGC9Zfdz10/view?usp=drive_link)
 
-- [Registro base datos pedidos](https://drive.google.com/file/d/1SUAvpdpaIBaQI3xjJngA8abn9WfQfTYj/view?usp=drive_link)
+
 
 
 - Aca dejo link a app [https://the-clothes-cove-p-final-react.vercel.app/ ](https://the-clothes-cove-p-final-react.vercel.app/)
