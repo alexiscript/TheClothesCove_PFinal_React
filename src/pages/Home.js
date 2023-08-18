@@ -14,6 +14,9 @@ import blog3 from '../images/blog/blog-3.jpg'
 import blog4 from '../images/blog/blog-4.jpg'
 import Newsletter from '../components/Newsletter'
 import Marquee from "react-fast-marquee";
+import { Button } from 'react-bootstrap'
+
+
 
 
 
@@ -92,62 +95,69 @@ const Home = () => {
                         <p className="mb-4">Nuestros clientes nunca dejan pasar la oportunidad de brindar comentarios.</p>
                     </div>
                     <div className="col-md-3 col-sm-6 mb-4">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={blog1} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                    "Variedad increíble reflejada en cada prenda. Modelos únicos para lucir a la moda en cualquier ocasión. ¡Altamente recomendado!
+                                </Card.Text>
+                                <Button as={Link} to="/nosotros" variant="primary">Leer mas</Button>
+                            </Card.Body>
+                        </Card>
+
+                    </div>
+
+                    <div className="col-md-3 col-sm-6 mb-4">
                         <div className="card">
-                            <img src={blog1} className="card-img-top img-fluid" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text">"Variedad increíble reflejada en cada prenda. Modelos únicos para lucir a la moda en cualquier ocasión. ¡Altamente recomendado!</p>
-                                <Link to='/nosotros'>
-                                    <button className="mt-4">Leer mas</button>
-                                </Link>
-                            </div>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={blog2} />
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                        ¡Vaya opciones geniales! Siempre encuentro algo que se adapta a mi estilo. ¡Mi amiga y yo adoramos explorar juntas!
+                                    </Card.Text>
+                                    <Button as={Link} to="/nosotros" variant="primary">Leer mas</Button>
+                                </Card.Body>
+                            </Card>
                         </div>
                     </div>
 
                     <div className="col-md-3 col-sm-6 mb-4">
                         <div className="card">
-                            <img src={blog2} className="card-img-top img-fluid" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text">¡Vaya opciones geniales! Siempre encuentro algo que se adapta a mi estilo. ¡Mi amiga y yo adoramos explorar juntas!</p>
-                                <Link to='/nosotros'>
-                                    <button className="mt-4">Leer mas</button>
-                                </Link>
-                            </div>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={blog3} />
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                        Nosotras valoramos la calidad y la moda. Esta tienda nos sorprende con su selección única y versátil. ¡Siempre encontramos algo!
+                                    </Card.Text>
+                                    <Button as={Link} to="/nosotros" variant="primary">Leer mas</Button>
+                                </Card.Body>
+                            </Card>
                         </div>
                     </div>
 
                     <div className="col-md-3 col-sm-6 mb-4">
                         <div className="card">
-                            <img src={blog3} className="card-img-top img-fluid" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text">Nosotras valoramos la calidad y la moda. Esta tienda nos sorprende con su selección única y versátil. Siempre tenemos mucho de qué hablar.</p>
-                                <Link to='/nosotros'>
-                                    <button className="mt-4">Leer mas</button>
-                                </Link>
-                            </div>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={blog4} />
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                        Me encanta esta tienda. Siempre hallo ideas inspiradoras y prendas de calidad. Un lugar perfecto para expresar mi estilo único.
+                                    </Card.Text>
+                                    <Button as={Link} to="/nosotros" variant="primary">Leer mas</Button>
+                                </Card.Body>
+                            </Card>
                         </div>
                     </div>
-
-                    <div className="col-md-3 col-sm-6 mb-4">
-                        <div className="card">
-                            <img src={blog4} className="card-img-top img-fluid" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text">Me encanta esta tienda. Siempre hallo ideas inspiradoras y prendas de calidad. Un lugar perfecto para expresar mi estilo único.</p>
-                                <Link to='/nosotros'>
-                                    <button className="mt-4">Leer mas</button>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>h
             </div>
         </section>
 
         <section className="hero p-4">
             <div className="container-xxl">
-
-
-
-
                 <div className="col-12 p-3">
                     <Marquee className='p-2 slide'>
                         <div>
