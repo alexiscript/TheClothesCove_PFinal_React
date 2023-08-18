@@ -38,6 +38,7 @@ Para poder correr el proyecto necesitas realizar los siguientes pasos:
 
 - [Alexis Rojas](https://github.com/alexiscript)
 - Aca dejo link a app [https://the-clothes-cove-p-final-react.vercel.app/ ](https://the-clothes-cove-p-final-react.vercel.app/)
+- Aca dejo DEMO a app [https://drive.google.com/uc?id=167tutVINrWqxJpFjM5NdhyAaYKkpsM5q&export=download)
 
 
 ![Logo](https://avatars.githubusercontent.com/u/126620928?v=4)
